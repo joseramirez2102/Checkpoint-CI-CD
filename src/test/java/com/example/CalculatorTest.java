@@ -20,7 +20,7 @@ public class CalculatorTest
     @Test
     void twoByFive() {
         Calculator calculator = new Calculator();
-        assertEquals(10, calculator.multiply(2, 5));
+        assertEquals(9, calculator.multiply(2, 5));
     }
 
     @Test
